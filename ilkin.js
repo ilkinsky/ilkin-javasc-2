@@ -1,16 +1,18 @@
-let a=6
-let b=18
-let c=21
+function upperCase() {
+    const x = document.getElementById("fname");
+    x.value = x.value.toUpperCase();
+  }
 
-console.log(a == b)
-console.log(c == b)
-console.log(a < b)
-console.log(b < c)
+  function myFunction(x) {
+    x.style.background = "yellow";
+  }
 
-if (b < c) {
-    console.log("c b  den boyukdur") 
-}
+  function myFunction() {
+    document.getElementById("demo").innerHTML = "Sen sozu secdin";
+  }
 
-if (a < c+b){
-    console.log("c ile b nin cemi,a dan boyukdur")
+
+function myFunction() {
+  var x = document.getElementById("fname");
+  x.value = x.value.toUpperCase();
 }
